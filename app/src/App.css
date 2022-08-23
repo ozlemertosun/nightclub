@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.title-white{
+  @apply tracking-[0.075em] font-bold leading-[1.1rem] text-5xl text-white
+}
+
+.title-pink{
+  @apply tracking-[0.075em] font-bold leading-[1.1rem] text-5xl text-[#ff2a70]
+}
+
+.subtitle{
+  @apply leading-[1.1rem] font-medium uppercase text-white
+}
+
+.bread{
+  @apply text-[#e0e0e0] text-[15px] leading-[25px]
+}
+
+.logotype{
+  @apply leading-[1.1rem] uppercase text-white text-[21px] tracking-[22px] font-thin
+}
+}
+
+
+.borderBox{
+  border: solid 2px white;
+  color: white;
+  font-size: 2.5em;
+  padding: 3%;
+}
