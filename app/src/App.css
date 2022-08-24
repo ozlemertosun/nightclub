@@ -6,6 +6,7 @@
 
 @layer base {
   body {
+    background: #030203;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -29,6 +30,10 @@
 
 .logotype{
   @apply leading-[1.1rem] uppercase text-white text-[21px] tracking-[22px] font-thin
+}
+
+.navtype{
+  @apply leading-[0.8rem] uppercase text-white text-[21px]
 }
 }
 
