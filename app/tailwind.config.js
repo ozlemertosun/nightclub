@@ -6,9 +6,9 @@ module.exports = {
     extend: {
       colors: {
         darkGray: "#030303",
-        lightGray: "e0e0e0",
-        pink: "ff2a70",
-        white: "#ffffff",
+        lightGray: "#e0e0e0",
+        partyPink: "#ff2a70",
+        snowWhite: "#ffffff",
       },
     },
   },

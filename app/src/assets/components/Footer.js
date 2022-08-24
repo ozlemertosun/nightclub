@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" bg-blue-900 font-semibold flex justify-evenly bread py-7 items-center">
+    <footer className="w-full bottom-0 relative font-semibold flex justify-evenly bread py-7 items-center">
       <p>Stay connected with us Night Club</p>
       <div className="flex gap-3">
         <FaFacebookF className="borderBox" />
