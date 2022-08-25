@@ -14,7 +14,7 @@ const Navigation = () => {
 
   return (
     <>
-      <nav className="w-full border-y-[1px] border-partyPink overflow-hidden sticky top-0 bg-darkGray flex py-3">
+      <nav className="w-full border-y-[1px] border-partyPink overflow-hidden sticky top-0 bg-darkGray flex py-3 z-50">
         <div className="h-14 w-14 bg-partyPink rotate-45 relative z-10 -left-7 -top-10"></div>
         <div className="m-auto">
           <img src={logoNav} />
@@ -30,7 +30,7 @@ const Navigation = () => {
             </NavLink>
 
             {pathname === "/" && (
-              <div className="h-1 mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
+              <div className="h-[1px] mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
             )}
           </li>
           <li className="relative">
@@ -43,7 +43,7 @@ const Navigation = () => {
               about us
             </NavLink>
             {pathname === "/about" && (
-              <div className="h-1 mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
+              <div className="h-[1px] mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
             )}
           </li>
           <li className="relative">
@@ -56,7 +56,7 @@ const Navigation = () => {
               blog
             </NavLink>
             {pathname === "/blog" && (
-              <div className="h-1 mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
+              <div className="h-[1px] mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
             )}
           </li>
           <li className="relative">
@@ -68,7 +68,7 @@ const Navigation = () => {
               events
             </NavLink>
             {pathname === "/events" && (
-              <div className="h-1 mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
+              <div className="h-[1px] mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
             )}
           </li>
           <li className="relative">
@@ -81,7 +81,7 @@ const Navigation = () => {
               gallery
             </NavLink>
             {pathname === "/gallery" && (
-              <div className="h-1 mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
+              <div className="h-[1px] mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
             )}
           </li>
           <li className="relative">
@@ -94,7 +94,7 @@ const Navigation = () => {
               book table
             </NavLink>
             {pathname === "/book" && (
-              <div className="h-1 mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
+              <div className="h-[1px] mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
             )}
           </li>
           <li className="relative">
@@ -107,7 +107,7 @@ const Navigation = () => {
               contact us
             </NavLink>
             {pathname === "/contact" && (
-              <div className="h-1 mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
+              <div className="h-[1px] mx-auto absolute bg-gradient-to-l from-transparent via-partyPink w-full -bottom-3 to-transparent"></div>
             )}
           </li>
         </ul>
