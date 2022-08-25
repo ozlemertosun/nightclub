@@ -45,3 +45,11 @@
   padding: 3%;
 }
 
+.graphiccornertop, .graphiccornerbottom {
+
+visibility: hidden;
+}
+.effecthovercard:hover .graphiccornertop,.effecthovercard:hover .graphiccornerbottom{
+
+visibility: visible;
+}
