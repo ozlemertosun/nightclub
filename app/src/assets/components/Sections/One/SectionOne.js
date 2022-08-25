@@ -8,8 +8,6 @@ import bar from "../../../img/sektion1/thumb2.jpg";
 import Dancingman from "../../../img/logo/Dancingman";
 
 const SectionOne = () => {
-  const [isHovered, setHovered] = useState(false);
-
   return (
     <section className="my-10 text-center">
       <h2 className="title-white uppercase mb-10">
