@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { motion, useScroll, useSpring } from "framer-motion";
+import { motion } from "framer-motion";
 
 const SectionThree = () => {
   const [images, setImages] = useState([]);
@@ -10,7 +10,7 @@ const SectionThree = () => {
       .then((res) => res.json())
       .then((res) => {
         setImages(res);
-        console.log(res);
+        /*    console.log(res); */
       });
   }, []);
 
