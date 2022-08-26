@@ -53,3 +53,8 @@ visibility: hidden;
 
 visibility: visible;
 }
+
+.galleryContainer{
+  display: grid;
+  grid-template: 200px 200px 200px 200px/ 1fr 1fr 1fr 1fr;
+}
