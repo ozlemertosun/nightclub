@@ -17,7 +17,6 @@ const SectionTwo = () => {
       .then((res) => res.json())
       .then((res) => {
         setEvents(res);
-        console.log(res);
       });
   }, []);
 
