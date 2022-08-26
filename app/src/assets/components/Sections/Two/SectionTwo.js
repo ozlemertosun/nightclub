@@ -22,7 +22,12 @@ const SectionTwo = () => {
   }, []);
 
   return (
-    <div className="max-w-[1150px] text-red-500 m-auto">
+    <div className="max-w-[1165px] m-auto mt-20">
+      <div className="flex flex-col mt-32">
+        <h2 className="title-white text-center">Events of the month</h2>
+        <div className="h-1 bg-gradient-to-l from-transparent via-partyPink w-[300px] m-auto to-transparent mt-10"></div>
+      </div>
+
       {events ? (
         <CarouselProvider
           naturalSlideWidth={100}
@@ -31,12 +36,16 @@ const SectionTwo = () => {
           visibleSlides={2}
           step={2}
           dragStep={2}
-          className="my-48 "
+          className="my-20"
         >
           <Slider>
             {events.map((event) => (
               <Slide>
-                <img src={event.asset.url} alt="" />
+                <img src={event.asset.url} alt={event.title} />
+                <div className="flex justify-around bg-partyPink bread">
+                  <p>{event.date}</p>
+                  <p>{event.location}</p>
+                </div>
               </Slide>
             ))}
           </Slider>
