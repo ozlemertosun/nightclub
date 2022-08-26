@@ -14,7 +14,6 @@ const Home = () => {
       <SectionTwo />
       <SectionThree />
       <SectionSix />
-      <div className="h-screen bg-red-500 w-full"></div>
       <Footer />
     </>
   );
